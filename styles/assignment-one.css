@@ -135,3 +135,61 @@
     border: 0;
     margin: 0 0 59px 64px;
 }
+
+/* footer styles */
+.footer-container {
+    display: flex;
+    gap: 330px;
+    justify-content: space-evenly;
+    background-color: #151414;
+}
+
+.future {
+    padding: 130px 0 130px 230px;
+}
+
+.footer-container .future .section-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.footer-container .future .section-description {
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.contact-info {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.footer-container .future a {
+    margin-right: 17px;
+}
+
+.subscribe {
+    padding: 130px 230px 130px 0;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.input-field {
+    font-size: 18px;
+    color: #F3F3F3;
+    background-color: #151414;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 21px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.footer-container .subscribe .common-btn {
+    margin-left: 0;
+}
