@@ -23,9 +23,7 @@
 
 .header-description {
     color: #444343;
-    margin-top: 24px;
-    margin-bottom: 32px;
-    margin-right: 230px;
+    margin: 24px 230px 32px 1100px;
 }
 
 .btn-contact {
@@ -45,8 +43,8 @@
 .failures-container {
     display: flex;
     align-items: center;
-    margin: 130px 250px;
-    gap: 87px;
+    margin: 130px 100px 130px 230px;
+    gap: 100px;
 }
 
 .failures-img {
@@ -58,17 +56,18 @@
     font-weight: 700;
     font-size: 30px;
     color: #151414;
+    margin-left: 40px;
 }
 
 .section-description {
     color: #444343;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin: 30px 330px 10px 40px;
 }
 
 .failures-container ul li {
     color: #444343;
     list-style: none;
+    margin-bottom: 8px;
 }
 
 .fa-solid {
@@ -78,7 +77,7 @@
 /* plans section styles */
 
 .plans {
-    margin: 130px 230px;
+    margin: 130px 200px;
 }
 
 .plans .section-title {
@@ -89,6 +88,7 @@
 .plans-container {
     margin-top: 50px;
     display: flex;
+    gap: 86px;
     justify-content: space-around;
     text-align: center;
 }
@@ -120,7 +120,8 @@
 
 .mindset .section-title {
     color: #FFFFFF;
-    padding: 59px 0 24px 64px;
+    padding: 59px 0 24px 28px;
+
 
 }
 
@@ -152,12 +153,12 @@
     font-weight: 700;
     font-size: 45px;
     color: #F8F8F8;
+    margin-left: 0;
 }
 
 .footer-container .future .section-description {
     color: #FFFFFF;
-    margin-top: 16px;
-    margin-bottom: 32px;
+    margin: 16px 330px 32px 0;
 }
 
 .contact-info {
@@ -167,6 +168,7 @@
 
 .footer-container .future a {
     margin-right: 17px;
+
 }
 
 .subscribe {
@@ -180,14 +182,16 @@
 }
 
 .input-field {
+    width: 325px;
     font-size: 18px;
     color: #F3F3F3;
     background-color: #151414;
-    border: 1px solid whitesmoke;
-    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
     padding: 21px;
     margin-top: 30px;
     margin-bottom: 16px;
+    margin-right: 40px;
 }
 
 .footer-container .subscribe .common-btn {
