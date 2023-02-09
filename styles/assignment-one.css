@@ -23,7 +23,7 @@
 
 .header-description {
     color: #444343;
-    margin: 24px 230px 32px 1100px;
+    margin: 24px 230px 32px 500px;
 }
 
 .btn-contact {
@@ -61,7 +61,7 @@
 
 .section-description {
     color: #444343;
-    margin: 30px 330px 10px 40px;
+    margin: 30px 100px 10px 40px;
 }
 
 .failures-container ul li {
@@ -143,6 +143,8 @@
     gap: 330px;
     justify-content: space-evenly;
     background-color: #151414;
+    background-size: cover;
+
 }
 
 .future {
@@ -158,7 +160,7 @@
 
 .footer-container .future .section-description {
     color: #FFFFFF;
-    margin: 16px 330px 32px 0;
+    margin: 16px 200px 32px 0;
 }
 
 .contact-info {
