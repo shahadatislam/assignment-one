@@ -1,0 +1,137 @@
+/* universal Tag */
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+/* header styles */
+.header {
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+}
+
+.header-title {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-right: 230px;
+    padding-top: 216px;
+}
+
+.header-description {
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    margin-right: 230px;
+}
+
+.btn-contact {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #F15B22;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 230px;
+    margin-bottom: 167px;
+}
+
+/* failures section styles */
+.failures-container {
+    display: flex;
+    align-items: center;
+    margin: 130px 250px;
+    gap: 87px;
+}
+
+.failures-img {
+    width: 569px;
+    height: 723.3px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.section-description {
+    color: #444343;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.failures-container ul li {
+    color: #444343;
+    list-style: none;
+}
+
+.fa-solid {
+    color: aqua;
+}
+
+/* plans section styles */
+
+.plans {
+    margin: 130px 230px;
+}
+
+.plans .section-title {
+    text-align: center;
+    font-size: 45px;
+}
+
+.plans-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.plans-info {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* mindset section styles */
+.mindset {
+    width: 1400px;
+    height: 300px;
+    margin: 130px 230px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mindset .section-title {
+    color: #FFFFFF;
+    padding: 59px 0 24px 64px;
+
+}
+
+.common-btn {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 0 59px 64px;
+}
